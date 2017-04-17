@@ -1,0 +1,502 @@
+[
+  {
+    "question": "First Insurance Company In India ?", 
+    "options": [
+      "a.Western India Insurance", 
+      "b.LIC", 
+      "c.Oriental Life Insurance Company", 
+      "d.Bombay Mutal Insurance"
+    ], 
+    "answer": 2
+  }, 
+  {
+    "question": "Which Of The Following Risks Are Insurable ?", 
+    "options": [
+      "a.Fiancial Risk", 
+      "b.Non-Financial Risk", 
+      "c.Both A And B", 
+      "d.None Of Them"
+    ], 
+    "answer": 0
+  }, 
+  {
+    "question": "The Amount Of Insurance Depends On ?", 
+    "options": [
+      "a.The Risk", 
+      "b.The Peril", 
+      "c.Neither Peril Nor Risk", 
+      "d.Both"
+    ], 
+    "answer": 3
+  }, 
+  {
+    "question": "Moral Hazard Is ?", 
+    "options": [
+      "a.Smoking", 
+      "b.A Family History Of High Blood Pressure", 
+      "c.Both", 
+      "d.None Of Them"
+    ], 
+    "answer": 0
+  }, 
+  {
+    "question": "Insured Means ?", 
+    "options": [
+      "a.Policyholder", 
+      "b.Agent", 
+      "c.I.R.D.A", 
+      "d.Insurance Company"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "Insurer Means ?", 
+    "options": [
+      "a.Agent", 
+      "b.Policyholder", 
+      "c.Insurance Company", 
+      "d.I.R.D.A"
+    ], 
+    "answer": 2
+  }, 
+  {
+    "question": "History Of Insurance Can Be Divided Into ?", 
+    "options": [
+      "a.One Phase", 
+      "b.Four Phase", 
+      "c.Two Phase", 
+      "d.Three Phase"
+    ], 
+    "answer": 3
+  }, 
+  {
+    "question": "The Insured Has To Pay Consideration To Insure Is Called ?", 
+    "options": [
+      "a.Dividend", 
+      "b.Sum Assured", 
+      "c.Premium", 
+      "d.Interest"
+    ], 
+    "answer": 2
+  }, 
+  {
+    "question": "I.R.D.A Stands For ?", 
+    "options": [
+      "a.Indian Runner Duck Association", 
+      "b.Iskandar Regional Development Authority ", 
+      "c.Insurance Regulatory Development Authority", 
+      "d.Infra Red Data Association"
+    ], 
+    "answer": 2
+  }, 
+  {
+    "question": "Insurance Product Is ?", 
+    "options": [
+      "a.Risk Cover", 
+      "b.Investment Option", 
+      "c.Combination Of Both", 
+      "d.None Of Both"
+    ], 
+    "answer": 2
+  }, 
+  {
+    "question": "What Is Bancassurance ?", 
+    "options": [
+      "a.Giving Guarantee To Policies By Bank", 
+      "b.To Undergo Prescribed Training", 
+      "c.Selling Insurance Policies Through Banks", 
+      "d.None Of Them"
+    ], 
+    "answer": 2
+  }, 
+  {
+    "question": "An Individual Looking For Retirement Income Needs To Invest In ?", 
+    "options": [
+      "a.ULIP", 
+      "b.Endowment", 
+      "c.Pension Policy", 
+      "d.Term Assuurance"
+    ], 
+    "answer": 2
+  }, 
+  {
+    "question": "Level Premium Is Calculated Based On ?", 
+    "options": [
+      "a.Net Premium", 
+      "b.Loading Premium ", 
+      "c.Gross Premium", 
+      "d.Risk Premium"
+    ], 
+    "answer": 3
+  }, 
+  {
+    "question": "Low Risk Product Gives ?", 
+    "options": [
+      "a.High Returns", 
+      "b.Low Returns", 
+      "c.No Returns", 
+      "d.Good Returns"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "Following The The Beneficiary Child Plan:", 
+    "options": [
+      "a.Parents", 
+      "b.Husband", 
+      "c.Insurance Company", 
+      "d.Child"
+    ], 
+    "answer": 3
+  }, 
+  {
+    "question": "A Group Of People Insured In A Policy Belond To Which Catagory :", 
+    "options": [
+      "a.Family", 
+      "b.Employees", 
+      "c.Acc TO Height", 
+      "d.Same Age"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "Which Is The Suitable Plan For Senior Citizen ?", 
+    "options": [
+      "a.Term Insurance Plan", 
+      "b.Money Back", 
+      "c.Pension Plan", 
+      "d.ULIP Plan"
+    ], 
+    "answer": 2
+  }, 
+  {
+    "question": "Commission Rates Are Low Under ?", 
+    "options": [
+      "a.Single Premium Policies", 
+      "b.Money Back Policies", 
+      "c.Annuity Plans", 
+      "d.Endowment Plans"
+    ], 
+    "answer": 0
+  }, 
+  {
+    "question": "Keeping Policy In Force Till Maturity Helps Client:", 
+    "options": [
+      "a.Agent", 
+      "b.To Achieve The Ultimate Goal", 
+      "c.IRDA", 
+      "d.Insurance Company"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "The IRDA Has Laid Down Guidelines For Settlement Of Claims In ?", 
+    "options": [
+      "a.2000", 
+      "b.2004", 
+      "c.2002", 
+      "d.2017"
+    ], 
+    "answer": 2
+  }, 
+  {
+    "question": "What Are The 3 Main Kinds Of Claims ?", 
+    "options": [
+      "a.SB,Maturity And Death", 
+      "b.None Of Them", 
+      "c.Loan,Premium,Pension", 
+      "d.Surrender Values"
+    ], 
+    "answer": 0
+  }, 
+  {
+    "question": "I.R.D.A Was Passed By Pariliament In ?", 
+    "options": [
+      "a.Dec 2018", 
+      "b.May 2005", 
+      "c.Dec 1999", 
+      "d.Aug 1985"
+    ], 
+    "answer": 2
+  }, 
+  {
+    "question": "Know Your Customer Relates To ?", 
+    "options": [
+      "a.Highly Qualified Customer", 
+      "b.True Identity Of The Customer", 
+      "c.Rural Customer", 
+      "d.Innocent Customer"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "Insurance Of Institute Of India(III) Was Formed In?", 
+    "options": [
+      "a.2002", 
+      "b.1995", 
+      "c.2012", 
+      "d.1999"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "Controls The Monetary System In India.", 
+    "options": [
+      "a.SEBI", 
+      "b.IRDA", 
+      "c.Constitution", 
+      "d.RBI"
+    ], 
+    "answer": 3
+  }, 
+  {
+    "question": "Following Terms Are Directly Related With Insurance:", 
+    "options": [
+      "a.IRDA", 
+      "b.De-Tarrification", 
+      "c.Tarrif Advisory Committee", 
+      "d.Foreign Exchange"
+    ], 
+    "answer": 3
+  }, 
+  {
+    "question": "Ombudsman Passes An Award Within Which Time ?", 
+    "options": [
+      "a.2 month", 
+      "b.1 Month", 
+      "c.1 Year", 
+      "d.5 Years"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "IRDA Does Not Fixes The Code Of Conduct To ?", 
+    "options": [
+      "a.Agents", 
+      "b.Bank Manager", 
+      "c.Lose Assessors", 
+      "d.Surveyors"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "IRDA Is Not Having The Power To:", 
+    "options": [
+      "a.Conduct Inspection At Stock Exchange", 
+      "b.Conduct Enquiry of Insurance Company", 
+      "c.Conduct Audit Of Insurance Company", 
+      "d.Conduct Inspection Of Insurance Company"
+    ], 
+    "answer": 0
+  }, 
+  {
+    "question": "Reserve Bank Of India Was Setup In ?", 
+    "options": [
+      "a.15th Aug 1940", 
+      "b.1st Jan 1947", 
+      "c.1st Apr 1935", 
+      "d.5th May 2012"
+    ], 
+    "answer": 2
+  }, 
+  {
+    "question": "Product Shortlisting Is Based On ?", 
+    "options": [
+      "a.Clients Need", 
+      "b.Insurance Decision", 
+      "c.Market Situation", 
+      "d.Agents Choice"
+    ], 
+    "answer": 0
+  }, 
+  {
+    "question": "Recommandations To Clients Are Presented:", 
+    "options": [
+      "a.In Mail", 
+      "b.Orally In Meeting", 
+      "c.By Order", 
+      "d.In Writing"
+    ], 
+    "answer": 3
+  }, 
+  {
+    "question": "Bank Interest Is Accumulated:", 
+    "options": [
+      "a.Quarterly", 
+      "b.Yearly", 
+      "c.Monthly", 
+      "d.Once In 6 Months"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "Basic Elements Of Life Insurance Plan Are:", 
+    "options": [
+      "a.Dying Early And Living Too Long", 
+      "b.Sum Assured And Bonus", 
+      "c.Death Cover And Maturity", 
+      "d.Accident Risk Cover And Death Cover"
+    ], 
+    "answer": 2
+  }, 
+  {
+    "question": "MPL Abbreviates :", 
+    "options": [
+      "a.Major Possible Loan", 
+      "b.Minimum Possible Loan", 
+      "c.Minor Possible Loan", 
+      "d.Maximum Possible Loan"
+    ], 
+    "answer": 3
+  }, 
+  {
+    "question": "Agents Must Have Licensed Under:", 
+    "options": [
+      "a.Sec 42 Of Insurance Act 1938", 
+      "b.Contract Act 1872", 
+      "c.Insurance Act 1972", 
+      "d.None Of Above"
+    ], 
+    "answer": 0
+  }, 
+  {
+    "question": "Satisfied Client Will Lead To:", 
+    "options": [
+      "a.Chances To Up Selling", 
+      "b.All The Above", 
+      "c.Word Of Mouth Publicity For Agent", 
+      "d.More Reference Generation"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "Plays Important Role In:", 
+    "options": [
+      "a.Maturity Payment", 
+      "b.Claim Settlement Ratio", 
+      "c.Revival", 
+      "d.Foreclosure"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "LIC Was Formed On ?", 
+    "options": [
+      "a.1st Aug 1890", 
+      "b.1st Sept 1956", 
+      "c.1st Dec 1956", 
+      "d.4th July 1956"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "Prevention Of Money Laundry Act Came Into Effect From:", 
+    "options": [
+      "a.1st July 2005", 
+      "b.1st Mar 2005", 
+      "c.4th Dec 2005", 
+      "d.1st Jan 2005"
+    ], 
+    "answer": 0
+  }, 
+  {
+    "question": "Customer Protection Act Was Established In:", 
+    "options": [
+      "a.1945", 
+      "b.1986", 
+      "c.2011", 
+      "d.2003"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "Compliance With AML Is Applicable To:", 
+    "options": [
+      "a.LIC Only", 
+      "b.All Financial Institutions", 
+      "c.Govt Co. Only", 
+      "d.Banks Only"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "The Person Who Forms The Trust", 
+    "options": [
+      "a.Trustee", 
+      "b.Beneficiary", 
+      "c.Trustor", 
+      "d.Life Assured"
+    ], 
+    "answer": 0
+  }, 
+  {
+    "question": "What KYC Needs ?", 
+    "options": [
+      "a.Address Proof", 
+      "b.ID Proof", 
+      "c.None", 
+      "d.Both A and B"
+    ], 
+    "answer": 3
+  }, 
+  {
+    "question": "Who Is Regulatory Body Of Money Laundering In Insurance Sector?", 
+    "options": [
+      "a.SEBI", 
+      "b.RBI", 
+      "c.IRDA", 
+      "d.TRAI"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "Investment In Insurance Sector Is Governed By:", 
+    "options": [
+      "a.Hedge", 
+      "b.IRDA", 
+      "c.Life Insurance Council", 
+      "d.SEBI"
+    ], 
+    "answer": 2
+  }, 
+  {
+    "question": "Duplicate License Fee:", 
+    "options": [
+      "a.\u20b910", 
+      "b.\u20b950", 
+      "c.\u20b9100", 
+      "d.\u20b920"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "The Complaint Under COPA Should Be Filed With In:", 
+    "options": [
+      "a.3 Year", 
+      "b.5 Year", 
+      "c.1 Year", 
+      "d.2 Year"
+    ], 
+    "answer": 3
+  }, 
+  {
+    "question": "Insurance Act 1938 Came Into Effect In:", 
+    "options": [
+      "a.1st July 1939", 
+      "b.1st Mar 2009", 
+      "c.2nd June 1999", 
+      "d.5th Sept 2008"
+    ], 
+    "answer": 0
+  }, 
+  {
+    "question": "An Advisor Will Do Churn To:", 
+    "options": [
+      "a.Minimize Paper Work", 
+      "b.Earn More", 
+      "c.None Of Them", 
+      "d.Avoid Customer Complaint"
+    ], 
+    "answer": 1
+  }
+]
