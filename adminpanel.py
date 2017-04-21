@@ -118,11 +118,12 @@ def add_question(question, options, answer):
         ent.grid(row=1+j, column=1, sticky='ew')
 
 
-for i in range(2):
+for i in range(50):
     add_question(database[i]['question'], database[i]['options'], database[i]['answer'])
 
 def new_question():
     add_question('', ['','','',''], -1) # add a new question with blank question, 4 blank answers, and -1 as the correct answer
+    root.after(10, lambda: question_frame.canvas.yview('moveto', 1)) # scroll to bottom
 
 mbutton=tk.Button(root,text='Quit',command=mquit,fg='red',bg='blue')
 mbutton.pack()
