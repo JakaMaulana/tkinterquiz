@@ -92,32 +92,42 @@ question_frame = VerticalScrolledFrame(root, height=500)
 question_frame.pack(fill=tk.X)
 user_data = [] # put the user data into a list, just like the database. This will be just like the database, except filled with StringVars and Intvars
 
-for i in range(50):
+def add_question(question, options, answer):
     one_q_frame = tk.Frame(question_frame) # since we need to layout the radio buttons side by side with a Entry, it would be easier to use the grid manager. So lets make a new frame for every question that we can lay out.
     one_q_frame.columnconfigure(1, weight=1) # make the 2nd column expand
     one_q_frame.pack(expand=True, fill=tk.X)
 
-    # make the question dictionary with 3 componants
-    user_data.append({
-        'question': tk.StringVar(value=database[i]['question']),
+    # make the question dictionary for variables with 3 componants
+    q_vars = {
+        'question': tk.StringVar(value=question),
         'options': [], # we'll fill this in in the loop
-        'answer': tk.IntVar(value=database[i]['answer'])
-        })
+        'answer': tk.IntVar(value=answer)
+        }
+    user_data.append(q_vars)
 
-    ent = tk.Entry(one_q_frame, width=50, textvariable=user_data[i]['question']) # set the width of the frame here
+    ent = tk.Entry(one_q_frame, width=50, textvariable=q_vars['question']) # set the width of the frame here
     ent.grid(row=0, column=0, columnspan=2, sticky='ew')
 
     for j in range(4):
         btn = tk.Radiobutton(one_q_frame,
             value=j,
-            variable=user_data[i]['answer'])
+            variable=q_vars['answer'])
         btn.grid(row=1+j, column=0)
-        user_data[i]['options'].append(tk.StringVar(value=database[i]['options'][j])) # make the option stringvar
-        ent = tk.Entry(one_q_frame, textvariable=user_data[i]['options'][j])
+        q_vars['options'].append(tk.StringVar(value=options[j])) # make the option stringvar
+        ent = tk.Entry(one_q_frame, textvariable=q_vars['options'][j])
         ent.grid(row=1+j, column=1, sticky='ew')
 
 
+for i in range(2):
+    add_question(database[i]['question'], database[i]['options'], database[i]['answer'])
+
+def new_question():
+    add_question('', ['','','',''], -1) # add a new question with blank question, 4 blank answers, and -1 as the correct answer
+
 mbutton=tk.Button(root,text='Quit',command=mquit,fg='red',bg='blue')
+mbutton.pack()
+
+mbutton=tk.Button(root,text='Add Question',command=new_question,fg='red',bg='blue')
 mbutton.pack()
 
 
