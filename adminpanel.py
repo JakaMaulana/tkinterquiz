@@ -64,8 +64,7 @@ the frame i guess'''
 img_label.config(image=img_label.img)
 img_label.pack()
 
-welcom=Label(root,text="Quiz Database").pack()
-
+welcom=tk.Label(root,text="Quiz Database").pack()
 
 score = 0
 
@@ -88,21 +87,33 @@ def finished():
 with open('database.json') as f:
     database = json.load(f)
 
-mentry = {}
-user_answers = {}
+
 question_frame = VerticalScrolledFrame(root, height=500)
 question_frame.pack(fill=tk.X)
+user_data = [] # put the user data into a list, just like the database
 
 for i in range(50):
-    user_answers[i] = tk.IntVar(value=-1)
-    mentry[i] = tk.Entry(question_frame, text=database[i]['question'])
-    mentry[i].pack(anchor=tk.W)
+    one_q_frame = tk.Frame(question_frame)
+    one_q_frame.columnconfigure(1, weight=1) # make the 2nd column expand
+    one_q_frame.pack(expand=True, fill=tk.X)
+
+    user_data.append({
+        'question': tk.StringVar(value=database[i]['question']),
+        'options': [],
+        'answer': tk.IntVar(value=database[i]['answer'])
+        })
+
+    ent = tk.Entry(one_q_frame, width=50, textvariable=user_data[i]['question'])
+    ent.grid(row=0, column=0, columnspan=2, sticky='ew')
+
     for j in range(4):
-        btn = tk.Radiobutton(question_frame,
-            text=database[i]['options'][j],
+        btn = tk.Radiobutton(one_q_frame,
             value=j,
-            variable=user_answers[i])
-        btn.pack(anchor=tk.W)
+            variable=user_data[i]['answer'])
+        btn.grid(row=1+j, column=0)
+        user_data[i]['options'].append(tk.StringVar(value=database[i]['options'][j]))
+        ent = tk.Entry(one_q_frame, textvariable=user_data[i]['options'][j])
+        ent.grid(row=1+j, column=1, sticky='ew')
 
 
 mbutton=tk.Button(root,text='Quit',command=mquit,fg='red',bg='blue')
