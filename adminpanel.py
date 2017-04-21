@@ -133,7 +133,7 @@ def finished():
         # add question data and options data the same way
 
     #save the new data
-    with open('database.json', 'w') as f:
+    with open('db.json', 'w') as f:
         json.dump(new_list, f, indent=2)
 
 
