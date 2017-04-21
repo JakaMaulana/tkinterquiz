@@ -125,6 +125,18 @@ def new_question():
     add_question('', ['','','',''], -1) # add a new question with blank question, 4 blank answers, and -1 as the correct answer
     root.after(10, lambda: question_frame.canvas.yview('moveto', 1)) # scroll to bottom
 
+def finished():
+    new_list = []
+    for i in range(len(user_data)):
+        new_list.append({}) # add a empty dictionary to the new list
+        new_list[i]['answer'] = user_data[i]['answer'].get()
+        # add question data and options data the same way
+
+    #save the new data
+    with open('database.json', 'w') as f:
+        json.dump(new_list, f, indent=2)
+
+
 mbutton=tk.Button(root,text='Quit',command=mquit,fg='red',bg='blue')
 mbutton.pack()
 
