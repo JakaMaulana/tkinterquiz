@@ -59,8 +59,7 @@ root.geometry('700x700+400+400')
 root.title('Rishabh Arts Admin Panel')
 img_label = tk.Label(root)
 img_label.img = tk.PhotoImage(file='Logo.png')
-'''logo seems to be big what size should i prefer coz its messed up
-the frame i guess'''
+
 img_label.config(image=img_label.img)
 img_label.pack()
 
@@ -69,7 +68,7 @@ welcom=tk.Label(root,text="Quiz Database").pack()
 score = 0
 
 def mquit():
-    mexit=messagebox.askyesno(title="Quit",message="Quit The Test ?")
+    mexit=messagebox.askyesno(title="Quit",message="Quit Updating Test ?")
     if mexit > 0:
         root.destroy()
         return
@@ -118,6 +117,15 @@ def add_question(question, options, answer):
         ent.grid(row=1+j, column=1, sticky='ew')
 
 
+'''
+mbutton=tk.Button(root,text='Del Question',command=del_question,fg='red',bg='blue')
+mbutton.pack()'''
+
+def del_question():
+    add_question('', ['','','',''], -1)
+
+
+
 for i in range(50):
     add_question(database[i]['question'], database[i]['options'], database[i]['answer'])
 
@@ -143,6 +151,8 @@ mbutton.pack()
 mbutton=tk.Button(root,text='Add Question',command=new_question,fg='red',bg='blue')
 mbutton.pack()
 
+mbutton=tk.Button(root,text='Del Question',command=del_question,fg='red',bg='blue')
+mbutton.pack()
 
 lc = tk.Label(root) # the score will be displayed here.
 lc.pack()
