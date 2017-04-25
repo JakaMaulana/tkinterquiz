@@ -117,9 +117,11 @@ def add_question(question, options, answer):
         ent.grid(row=1+j, column=1, sticky='ew')
 
 
-'''
-mbutton=tk.Button(root,text='Del Question',command=del_question,fg='red',bg='blue')
-mbutton.pack()'''
+    mbutton=tk.Button(one_q_frame,
+        text='Del Question',
+        command=del_question,
+        fg='red',bg='blue')
+    mbutton.grid(row=2+j, column=1)
 
 def del_question():
     add_question('', ['','','',''], -1)
