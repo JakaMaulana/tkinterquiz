@@ -1,53 +1,53 @@
 [
   {
-    "question": "First Insurance Company In India ?", 
+    "question": "Perjalanan Piston dari Top Dead Center ke Bottom Dead Center disebut;", 
     "options": [
-      "a.Western India Insurance", 
-      "b.LIC", 
-      "c.Oriental Life Insurance Company", 
-      "d.Bombay Mutal Insurance"
-    ], 
-    "answer": 2
-  }, 
-  {
-    "question": "Which Of The Following Risks Are Insurable ?", 
-    "options": [
-      "a.Fiancial Risk", 
-      "b.Non-Financial Risk", 
-      "c.Both A And B", 
-      "d.None Of Them"
+      "a. Stroke",
+      "b. Cycle",
+      "c. Bore",
+      "d. Diameter", 
     ], 
     "answer": 0
   }, 
   {
-    "question": "The Amount Of Insurance Depends On ?", 
+    "question": "Fungsi utama Water Pump adalah:", 
     "options": [
-      "a.The Risk", 
-      "b.The Peril", 
-      "c.Neither Peril Nor Risk", 
-      "d.Both"
-    ], 
-    "answer": 3
-  }, 
-  {
-    "question": "Moral Hazard Is ?", 
-    "options": [
-      "a.Smoking", 
-      "b.A Family History Of High Blood Pressure", 
-      "c.Both", 
-      "d.None Of Them"
+      "a.Menghasilkan Aliran (Flow)", 
+      "b.Menghasilkan Tekanan (Pressure)", 
+      "c.Menghasilkan Tenaga (Force)", 
+      "d.Menghasilkan Putaran"
     ], 
     "answer": 0
   }, 
   {
-    "question": "Insured Means ?", 
+    "question": ".  Pada Scroll Type Fuel Injection Pump jumlah Fuel yang disemprotkan ditentukan   oleh:", 
     "options": [
-      "a.Policyholder", 
-      "b.Agent", 
-      "c.I.R.D.A", 
-      "d.Insurance Company"
+      "a.Sleeve Position", 
+      "b.Helical Slot Position", 
+      "c.Fuel Transfer Pump", 
+      "d.By Pass Valve"
     ], 
     "answer": 1
+  }, 
+  {
+    "question": "Tujuan utama digunakannya Sistem Pendingin Bertekanan (Pressurized Cooling System) adalah untuk", 
+    "options": [
+      "a.Menurunkan titik didih Air ", 
+      "b.Menaikkan titik didih Air", 
+      "c.Mencegah kebocoran ", 
+      "d.Mencegah sifat korosi Air"
+    ], 
+    "answer": 1
+  }, 
+  {
+    "question": "Turbocharger digerakkan oleh", 
+    "options": [
+      "a.Camshaft", 
+      "b.Crankshaft", 
+      "c.Timing Gear", 
+      "d.Exhaust Gas"
+    ], 
+    "answer": 3
   }, 
   {
     "question": "Insurer Means ?", 
